@@ -19,4 +19,7 @@ steps:
 # Store images in Google Artifact Registry 
 images:
   - us-central1-docker.pkg.dev/airflowproject-454009/python-repo/my-app:${SHORT_SHA}
-  - us-central1-docker.pkg.dev/airflowproject-454009/python-repo/my-app:latest
+  - us-central1-docker.pkg.dev/airflowproject-454009/python-repo/my-app:latest\
+
+
+logging: CLOUD_LOGGING_ONLY
